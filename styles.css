@@ -1,0 +1,24 @@
+.index-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.index-wrapper button {
+    margin-top: 10px;
+}
+
+.positions-table {
+    width: 50%;
+    margin: auto;
+}
+
+th {
+    cursor: pointer;
+}
+
+.teams-cell td {
+    vertical-align: middle !important;
+}
+
+#success_message{ display: none;}
